@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 2,
-			"architecture" : "x64",
+			"revision" : 1,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1372.0, 783.0 ],
+		"rect" : [ 85.0, 80.0, 1321.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 383.344818, 1494.468384, 130.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.dimmap @invert 0 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-163",
@@ -545,8 +558,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 1,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1419,8 +1432,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 1,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1914,8 +1927,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 1,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2535,8 +2548,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 1,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2778,8 +2791,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 1,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3610,7 +3623,7 @@
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1148.282646, 254.063538, 1347.178223, 254.063538 ],
+					"midpoints" : [ 1148.282593, 254.063538, 1347.178223, 254.063538 ],
 					"source" : [ "obj-150", 1 ]
 				}
 
@@ -3857,7 +3870,7 @@
 					"destination" : [ "obj-104", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1857.749878, 204.0, 2235.291565, 204.0, 2235.291565, 113.126953, 2410.833252, 113.126953 ],
+					"midpoints" : [ 1857.749878, 204.0, 2235.291504, 204.0, 2235.291504, 113.126953, 2410.833252, 113.126953 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -4366,6 +4379,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4756,7 +4778,7 @@
 					"destination" : [ "obj-89", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 790.780548, 908.083435, 891.194946, 908.083435 ],
+					"midpoints" : [ 790.780518, 908.083435, 891.194946, 908.083435 ],
 					"source" : [ "obj-95", 1 ]
 				}
 
@@ -4772,19 +4794,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-81", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-96", 1 ]
+					"source" : [ "obj-96", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-82", 0 ],
+					"destination" : [ "obj-81", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-96", 0 ]
+					"source" : [ "obj-96", 1 ]
 				}
 
 			}
@@ -4808,16 +4830,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-25::obj-53" : [ "live.tab", "live.tab", 0 ],
-			"obj-62::obj-606" : [ "live.text[2]", "live.text", 0 ],
-			"obj-62::obj-607" : [ "live.button[1]", "live.button", 0 ],
 			"obj-62::obj-35" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-25::obj-14" : [ "live.menu", "live.menu", 0 ],
+			"obj-62::obj-606" : [ "live.text[2]", "live.text", 0 ],
 			"obj-25::obj-74" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-25::obj-76" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-62::obj-607" : [ "live.button[1]", "live.button", 0 ],
+			"obj-62::obj-55" : [ "live.text[3]", "live.text", 0 ],
 			"obj-62::obj-50" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-25::obj-76" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-25::obj-53" : [ "live.tab", "live.tab", 0 ],
 			"obj-62::obj-21" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-62::obj-55" : [ "live.text[3]", "live.text", 0 ]
+			"obj-25::obj-14" : [ "live.menu", "live.menu", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -4835,7 +4857,7 @@
 , 			{
 				"name" : "spat.monitor.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ircam-spat/patchers",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -4921,8 +4943,8 @@
 		"styles" : [ 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
