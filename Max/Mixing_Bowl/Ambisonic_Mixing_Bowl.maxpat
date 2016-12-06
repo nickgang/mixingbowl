@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 81.0, 79.0, 1372.0, 783.0 ],
+		"rect" : [ 78.0, 79.0, 1328.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1597.583252, 359.626953, 50.0, 35.0 ],
 					"style" : "",
-					"text" : "0.483867"
+					"text" : "0.329108"
 				}
 
 			}
@@ -60,7 +60,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1537.249878, 320.854858, 50.0, 35.0 ],
 					"style" : "",
-					"text" : "0.483867"
+					"text" : "0.329108"
 				}
 
 			}
@@ -96,11 +96,13 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-56",
+					"linecount" : 2,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1497.583252, 521.126953, 150.0, 34.0 ],
+					"patching_rect" : [ 1497.583252, 521.126953, 150.0, 48.0 ],
+					"text" : "/xy : [-4.48897, 7.07146]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -407,101 +409,6 @@
 					"patching_rect" : [ 1133.0, 959.5, 55.0, 21.0 ],
 					"style" : "",
 					"text" : "layout $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"aperture" : [ 80.0, 80.0, 80.0, 80.0, 80.0, 80.0, 80.0, 80.0 ],
-					"aperturecolor" : [ 1.0, 1.0, 1.0, 0.62 ],
-					"areasmonitoring" : [ 0 ],
-					"autozoom" : [ 1 ],
-					"backgroundcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
-					"backgroundimage" : [ "none" ],
-					"backgroundimageangle" : [ 0.0 ],
-					"backgroundimageopacity" : [ 1.0 ],
-					"backgroundimagequality" : [ "medium" ],
-					"backgroundimagescale" : [ 1.0 ],
-					"backgroundimagexoffset" : [ 0.0 ],
-					"backgroundimageyoffset" : [ 0.0 ],
-					"circularconstraint" : [ 0 ],
-					"dashedgrid" : [ 0 ],
-					"defer" : [ 0 ],
-					"display" : [ 1 ],
-					"format" : [ "aed" ],
-					"globalproportion" : [ 0.1 ],
-					"gridcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"gridlines" : [ 5 ],
-					"gridmode" : [ "circular" ],
-					"gridspacing" : [ 1.0 ],
-					"id" : "obj-86",
-					"jspainterfile" : [ "" ],
-					"layout" : [ "leftright" ],
-					"listenereditable" : [ 0 ],
-					"listenerpitch" : [ 0.0 ],
-					"listenerposition" : [ 0.0, 0.0, 0.0 ],
-					"listenerproportion" : [ 0.15 ],
-					"listenerroll" : [ 0.0 ],
-					"listeneryaw" : [ 0.0 ],
-					"maxclass" : "spat.viewer.embedded",
-					"name" : [ "1", "2", "3", "4", "5", "6", "7", "8" ],
-					"numanchors" : [ 0 ],
-					"numangulardivisions" : [ 8 ],
-					"numareas" : [ 0 ],
-					"numinlets" : 1,
-					"numoutlets" : 7,
-					"numsources" : [ 8 ],
-					"numspeakers" : [ 8 ],
-					"orientationmode" : [ "yawconstraint", "yawconstraint", "yawconstraint", "yawconstraint", "yawconstraint", "yawconstraint", "yawconstraint", "yawconstraint" ],
-					"outlettype" : [ "source", "speakers", "source", "", "listener", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1103.014648, 1045.373047, 618.0, 266.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 923.0, 436.373047, 739.833252, 318.0 ],
-					"radius" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
-					"radiusconstraint" : [ 0 ],
-					"rightclicklock" : [ 0 ],
-					"shoeboxcorners" : [ 0.0, 0.0, 0.0, 1.0, -1.0, 0.0 ],
-					"showanchors" : [ 0 ],
-					"showanchorslabel" : [ 0 ],
-					"showangulardivisions" : [ 1 ],
-					"showaperture" : [ 1 ],
-					"showareas" : [ 0 ],
-					"showbackgroundimage" : [ 1 ],
-					"showfps" : [ 0 ],
-					"showheadphones" : [ 0 ],
-					"showlegend" : [ 1 ],
-					"showlistener" : [ 1 ],
-					"showradius" : [ 0 ],
-					"showshoebox" : [ 0 ],
-					"showsources" : [ 1 ],
-					"showsourceslabel" : [ 1 ],
-					"showsourceslevels" : [ 0 ],
-					"showspeakers" : [ 1 ],
-					"showspeakershull" : [ 0 ],
-					"showspeakerslabel" : [ 1 ],
-					"showspeakerslevels" : [ 0 ],
-					"showspeakersprojection" : [ 0 ],
-					"showspeakersradius" : [ 0 ],
-					"showspeakerstriangulation" : [ 0 ],
-					"showviewer" : [ 1 ],
-					"sourcecolor" : [ 0.490196, 1.0, 0.0, 1.0, 0.490196, 1.0, 0.0, 1.0, 0.490196, 1.0, 0.0, 1.0, 0.490196, 1.0, 0.0, 1.0, 0.490196, 1.0, 0.0, 1.0, 0.490196, 1.0, 0.0, 1.0, 0.490196, 1.0, 0.0, 1.0, 0.490196, 1.0, 0.0, 1.0 ],
-					"sourceproportion" : [ 0.07 ],
-					"sourceseditable" : [ 1 ],
-					"sourceslevels" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-					"sourcespositions" : [ 0.16175, 8.057371, 5.920525, 7.071068, 7.071068, 0.0, 10.0, 0.0, 0.0, 7.071068, -7.071068, 0.0, -0.0, -10.0, 0.0, -7.071068, -7.071068, 0.0, -10.0, -0.000002, 0.0, -7.071068, 7.071068, 0.0 ],
-					"speakerseditable" : [ 1 ],
-					"speakerslevels" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-					"speakerspositions" : [ -0.159331, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-					"speakersproportion" : [ 0.1 ],
-					"useopengl" : [ 0 ],
-					"viewpoint" : [ "top" ],
-					"xoffset" : [ 0.0 ],
-					"yaw" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-					"yoffset" : [ 0.0 ],
-					"zoffset" : [ 0.0 ],
-					"zoom" : [ 0.186301 ],
-					"zoomlock" : [ 0 ]
 				}
 
 			}
@@ -4649,15 +4556,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-115", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5421,15 +5319,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-30", 0 ]
@@ -6623,25 +6512,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-90", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 1752.5, 1343.5, 1728.507324, 1343.5, 1728.507324, 1034.373047, 1112.514648, 1034.373047 ],
-					"source" : [ "obj-92", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -6688,74 +6558,74 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-92::obj-61" : [ "live.toggle[48]", "live.toggle", 0 ],
-			"obj-92::obj-160" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-92::obj-118" : [ "live.toggle[38]", "live.toggle", 0 ],
-			"obj-92::obj-33" : [ "live.toggle[56]", "live.toggle", 0 ],
-			"obj-92::obj-105" : [ "live.dial[29]", "listener", 0 ],
-			"obj-92::obj-134" : [ "live.toggle[34]", "live.toggle", 0 ],
-			"obj-92::obj-10" : [ "live.dial[36]", "height", 0 ],
-			"obj-92::obj-24" : [ "live.toggle[57]", "live.toggle", 0 ],
-			"obj-92::obj-7" : [ "live.dial[37]", "width", 0 ],
-			"obj-62::obj-55" : [ "live.text[3]", "live.text", 0 ],
-			"obj-62::obj-606" : [ "live.text[2]", "live.text", 0 ],
-			"obj-92::obj-5" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-92::obj-40" : [ "live.toggle[54]", "live.toggle", 0 ],
 			"obj-92::obj-194" : [ "live.dial[19]", "angle", 0 ],
-			"obj-92::obj-1" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-92::obj-137" : [ "live.toggle[29]", "live.toggle", 0 ],
-			"obj-92::obj-116" : [ "live.toggle[39]", "live.toggle", 0 ],
-			"obj-92::obj-77" : [ "live.toggle[40]", "live.toggle", 0 ],
-			"obj-92::obj-190" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-92::obj-54" : [ "live.toggle[49]", "live.toggle", 0 ],
-			"obj-92::obj-213" : [ "live.toggle[31]", "live.toggle", 0 ],
-			"obj-92::obj-132" : [ "live.toggle[35]", "live.toggle", 0 ],
-			"obj-92::obj-23" : [ "live.dial[30]", "divisions", 0 ],
-			"obj-92::obj-209" : [ "live.text[4]", "live.text", 0 ],
-			"obj-92::obj-186" : [ "live.text[7]", "live.text", 0 ],
-			"obj-92::obj-70" : [ "live.toggle[45]", "live.toggle", 0 ],
-			"obj-89" : [ "live.dial[38]", "xoffset", 0 ],
 			"obj-92::obj-193" : [ "live.dial[20]", "scale", 0 ],
-			"obj-92::obj-108" : [ "live.dial[28]", "speakers", 0 ],
-			"obj-92::obj-148" : [ "live.toggle[33]", "live.toggle", 0 ],
-			"obj-20" : [ "live.toggle[92]", "live.toggle", 0 ],
-			"obj-92::obj-79" : [ "live.toggle[41]", "live.toggle", 0 ],
-			"obj-92::obj-157" : [ "live.dial[1]", "xoffset", 0 ],
-			"obj-92::obj-187" : [ "live.dial[22]", "yoffset", 0 ],
-			"obj-92::obj-52" : [ "live.toggle[50]", "live.toggle", 0 ],
-			"obj-92::obj-188" : [ "live.dial[23]", "xoffset", 0 ],
-			"obj-92::obj-22" : [ "live.dial[31]", "spacing", 0 ],
-			"obj-92::obj-111" : [ "live.dial[26]", "global", 0 ],
-			"obj-92::obj-66" : [ "live.toggle[46]", "live.toggle", 0 ],
-			"obj-92::obj-123" : [ "live.toggle[36]", "live.toggle", 0 ],
+			"obj-92::obj-56" : [ "live.toggle[30]", "live.toggle", 0 ],
+			"obj-92::obj-72" : [ "live.toggle[44]", "live.toggle", 0 ],
+			"obj-92::obj-153" : [ "live.toggle[32]", "live.toggle", 0 ],
+			"obj-92::obj-150" : [ "live.dial[24]", "top", 0 ],
+			"obj-92::obj-132" : [ "live.toggle[35]", "live.toggle", 0 ],
+			"obj-92::obj-151" : [ "live.dial[25]", "left", 0 ],
 			"obj-92::obj-64" : [ "live.toggle[47]", "live.toggle", 0 ],
+			"obj-92::obj-61" : [ "live.toggle[48]", "live.toggle", 0 ],
+			"obj-92::obj-134" : [ "live.toggle[34]", "live.toggle", 0 ],
+			"obj-92::obj-24" : [ "live.toggle[57]", "live.toggle", 0 ],
+			"obj-92::obj-54" : [ "live.toggle[49]", "live.toggle", 0 ],
+			"obj-92::obj-7" : [ "live.dial[37]", "width", 0 ],
+			"obj-92::obj-52" : [ "live.toggle[50]", "live.toggle", 0 ],
+			"obj-92::obj-121" : [ "live.toggle[37]", "live.toggle", 0 ],
+			"obj-92::obj-48" : [ "live.toggle[51]", "live.toggle", 0 ],
+			"obj-92::obj-23" : [ "live.dial[30]", "divisions", 0 ],
+			"obj-92::obj-1" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-92::obj-43" : [ "live.toggle[53]", "live.toggle", 0 ],
+			"obj-92::obj-70" : [ "live.toggle[45]", "live.toggle", 0 ],
+			"obj-92::obj-191" : [ "live.dial[21]", "opacity", 0 ],
+			"obj-92::obj-40" : [ "live.toggle[54]", "live.toggle", 0 ],
+			"obj-92::obj-190" : [ "live.tab[4]", "live.tab", 0 ],
 			"obj-92::obj-36" : [ "live.toggle[55]", "live.toggle", 0 ],
+			"obj-92::obj-33" : [ "live.toggle[56]", "live.toggle", 0 ],
+			"obj-92::obj-111" : [ "live.dial[26]", "global", 0 ],
+			"obj-92::obj-109" : [ "live.dial[27]", "sources", 0 ],
+			"obj-92::obj-108" : [ "live.dial[28]", "speakers", 0 ],
+			"obj-89" : [ "live.dial[38]", "xoffset", 0 ],
+			"obj-92::obj-10" : [ "live.dial[36]", "height", 0 ],
+			"obj-92::obj-79" : [ "live.toggle[41]", "live.toggle", 0 ],
+			"obj-92::obj-46" : [ "live.toggle[52]", "live.toggle", 0 ],
+			"obj-92::obj-118" : [ "live.toggle[38]", "live.toggle", 0 ],
+			"obj-92::obj-77" : [ "live.toggle[40]", "live.toggle", 0 ],
+			"obj-92::obj-154" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-92::obj-66" : [ "live.toggle[46]", "live.toggle", 0 ],
+			"obj-92::obj-148" : [ "live.toggle[33]", "live.toggle", 0 ],
+			"obj-92::obj-169" : [ "live.text[8]", "live.text", 0 ],
+			"obj-92::obj-171" : [ "live.toggle[58]", "live.toggle", 0 ],
+			"obj-62::obj-50" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-92::obj-207" : [ "live.text[5]", "live.text", 0 ],
+			"obj-92::obj-186" : [ "live.text[7]", "live.text", 0 ],
+			"obj-62::obj-21" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-62::obj-35" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-92::obj-81" : [ "live.toggle[42]", "live.toggle", 0 ],
+			"obj-62::obj-607" : [ "live.button[1]", "live.button", 0 ],
+			"obj-92::obj-22" : [ "live.dial[31]", "spacing", 0 ],
+			"obj-92::obj-20" : [ "live.dial[32]", "gridlines", 0 ],
+			"obj-92::obj-116" : [ "live.toggle[39]", "live.toggle", 0 ],
 			"obj-92::obj-18" : [ "live.dial[33]", "zoom", 0 ],
 			"obj-92::obj-16" : [ "live.dial[34]", "yoffset", 0 ],
-			"obj-92::obj-154" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-62::obj-21" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-92::obj-81" : [ "live.toggle[42]", "live.toggle", 0 ],
-			"obj-62::obj-35" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-92::obj-48" : [ "live.toggle[51]", "live.toggle", 0 ],
-			"obj-62::obj-607" : [ "live.button[1]", "live.button", 0 ],
-			"obj-92::obj-72" : [ "live.toggle[44]", "live.toggle", 0 ],
-			"obj-92::obj-43" : [ "live.toggle[53]", "live.toggle", 0 ],
-			"obj-92::obj-199" : [ "live.text[6]", "live.text", 0 ],
-			"obj-92::obj-207" : [ "live.text[5]", "live.text", 0 ],
-			"obj-92::obj-56" : [ "live.toggle[30]", "live.toggle", 0 ],
-			"obj-92::obj-109" : [ "live.dial[27]", "sources", 0 ],
-			"obj-92::obj-121" : [ "live.toggle[37]", "live.toggle", 0 ],
-			"obj-92::obj-191" : [ "live.dial[21]", "opacity", 0 ],
-			"obj-62::obj-50" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-92::obj-171" : [ "live.toggle[58]", "live.toggle", 0 ],
+			"obj-92::obj-213" : [ "live.toggle[31]", "live.toggle", 0 ],
 			"obj-92::obj-14" : [ "live.dial[35]", "xoffset", 0 ],
-			"obj-92::obj-153" : [ "live.toggle[32]", "live.toggle", 0 ],
+			"obj-92::obj-187" : [ "live.dial[22]", "yoffset", 0 ],
+			"obj-92::obj-5" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-92::obj-188" : [ "live.dial[23]", "xoffset", 0 ],
+			"obj-92::obj-157" : [ "live.dial[1]", "xoffset", 0 ],
+			"obj-92::obj-160" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-92::obj-105" : [ "live.dial[29]", "listener", 0 ],
 			"obj-92::obj-75" : [ "live.toggle[43]", "live.toggle", 0 ],
-			"obj-92::obj-150" : [ "live.dial[24]", "top", 0 ],
-			"obj-92::obj-151" : [ "live.dial[25]", "left", 0 ],
-			"obj-92::obj-46" : [ "live.toggle[52]", "live.toggle", 0 ],
-			"obj-92::obj-169" : [ "live.text[8]", "live.text", 0 ],
-			"obj-92::obj-20" : [ "live.dial[32]", "gridlines", 0 ]
+			"obj-62::obj-55" : [ "live.text[3]", "live.text", 0 ],
+			"obj-92::obj-209" : [ "live.text[4]", "live.text", 0 ],
+			"obj-92::obj-137" : [ "live.toggle[29]", "live.toggle", 0 ],
+			"obj-62::obj-606" : [ "live.text[2]", "live.text", 0 ],
+			"obj-92::obj-199" : [ "live.text[6]", "live.text", 0 ],
+			"obj-20" : [ "live.toggle[92]", "live.toggle", 0 ],
+			"obj-92::obj-123" : [ "live.toggle[36]", "live.toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -6849,10 +6719,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat.viewer.embedded.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "o.pack.mxo",
 				"type" : "iLaX"
 			}
@@ -6873,8 +6739,8 @@
 		"styles" : [ 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
