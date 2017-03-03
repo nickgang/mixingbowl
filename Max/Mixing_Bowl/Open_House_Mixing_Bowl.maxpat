@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 77.0, 95.0, 1372.0, 783.0 ],
+		"rect" : [ 78.0, 95.0, 1372.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,28 +38,52 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-226",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"id" : "obj-236",
+					"maxclass" : "button",
+					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1003.5, 973.5, 41.0, 22.0 ],
-					"style" : "",
-					"text" : "dump"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 963.516907, 911.520386, 24.0, 24.0 ],
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-202",
-					"linecount" : 736,
+					"id" : "obj-233",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 926.516907, 956.813965, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-231",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 926.516907, 1014.0, 56.0, 22.0 ],
+					"style" : "",
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-230",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1708.0, 1212.0, 50.0, 9875.0 ],
+					"patching_rect" : [ 963.516907, 962.0, 41.0, 22.0 ],
 					"style" : "",
-					"text" : "aperture 49.8 26.9 75.8 73.8 92. 171. 151.3 58.8 10. 10. 10. 95.9 10. 10. 180. 180. 10. 180. 125.8 10. 10. 10. 10. 10., automute 0., axis 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657., bril 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30., bypass 0, cluster_distr 0.5 0.5, cluster_end 105.64 105.64, cluster_start 42.47 42.47, decoding null, delays 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0., doppler 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0, drop 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6., dropmode log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2, early_distr 0.5 0.5, early_end 39.71 39.71, early_shape 0.5 0.5, early_start 22.22 22.22, early_width 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30., env 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24., heaviness 45. 25., hoaencoding SN3D, hoamode precise, infinite 0 0, interpolationtime 30., liveness 40. 35., modaldensity 0.86 0.86, mute 0, nfchighpass 0, nfcspeakersradius 1., numcascades 1, numinternals 16, numpan 16, numreverbs 2, numsources 24, numspeakers 16, omni 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657., outputfiltersQ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1., outputfiltersfreq 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000., outputfiltersgain 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0., outputfilterstype Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null, pan_rev 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0., panning hoa3d, parallel 0, pitch 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0., prer 48. 48. 48. 48. 48. 48. 48. 79. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48., pres 100. 114.3396 100. 100. 100. 109.811302 100. 120. 120. 120. 100.232903 100.232903 100.232903 100.232903 100.232903 100.232903 100. 120. 100.156502 100. 100. 100.440102 100. 100., radius 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1., reverb_start 95.37 95.37, reverberance 95. 65., reverbfreqhigh 8000. 8000., reverbfreqlow 250. 250., reverbid 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0, revp 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 50. 34. 34. 34. 34. 34. 34., roomactive 1 1, roomairabsorption 1 1, roomairrolloff 10000. 10000., sourceairabsorption 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1, sourcemute 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0, sourcespositions -7.111995 -4.426826 5.46102 -6.691039 0.420967 7.419758 -4.772686 8.038119 3.55107 -6.9 5.069213 5.165333 -3.372122 4.442608 8.3 3.173021 1.520257 9.360596 6.39 5.896564 4.939419 0.619592 -7.227234 6.883545 -0.017618 5.04697 0. 2.968704 3.010446 0. 2.202755 3.418008 2.836699 -2.677611 2.734287 0. -3.04 -0.026529 0. 3.014927 0.021048 0. -2.768443 -2.846852 0. 2.794588 -2.824006 0. -8.660254 -5. 0. 0.194944 2.592682 0. 9.824641 -1.503378 0. -9.659259 2.588189 0. -8.660253 5. 0. -6.83 7.07255 0. -5. 8.660255 0. -2.588189 9.659259 0., speakerseq 0, speakerspositions 0. 1. 0. 0.382684 0.923879 0. 0.707107 0.707107 0. 0.92388 0.382683 0. 1. 0. 0. 0.92388 -0.382683 0. 0.707107 -0.707107 0. 0.382683 -0.923879 0. -0. -1. 0. -0.382683 -0.92388 0. -0.707107 -0.707107 0. -0.92388 -0.382683 0. -1. 0. 0. -0.92388 0.382683 0. -0.707107 0.707107 0. -0.382684 0.92388 0., speakerstimealignment 0, stereo 0, warmth 30. 30. 30. 30. 30. 30. 30. 49. 30. 30. 30. 30. 30. 30. 30. 30. 30. 45. 30. 30. 30. 30. 30. 30., yaw 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.,"
+					"text" : "dump"
 				}
 
 			}
@@ -3395,13 +3419,11 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-95",
-					"linecount" : 11,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1795.249878, 705.126953, 150.0, 170.0 ],
-					"text" : "/xy : [-6.55937, -4.53234],\n/min : -10.,\n/max : 10.,\n/r2_max : 100.,\n/x : -6.55937,\n/y : -4.53234,\n/r2 : 63.5674,\n/z : 6.03594,\n/xyz : [-6.55937, -4.53234, 6.03594]",
+					"patching_rect" : [ 1795.249878, 705.126953, 150.0, 34.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -6404,7 +6426,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1468.014648, 697.126953, 31.0, 22.0 ],
 					"style" : "",
 					"text" : "thru"
@@ -6697,9 +6719,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-150",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 6,
-					"outlettype" : [ "", "", "bang", "bang", "", "bang" ],
+					"outlettype" : [ "", "", "", "bang", "", "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -6710,7 +6732,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 754.0, 79.0, 652.0, 783.0 ],
+						"rect" : [ 754.0, 78.0, 254.0, 783.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6738,6 +6760,33 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "Update State",
+									"id" : "obj-9",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 585.338928, 45.323997, 25.0, 25.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"linecount" : 156,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 420.338928, 139.0, 184.0, 2100.0 ],
+									"style" : "",
+									"text" : "aperture 49.8 26.9 75.8 73.8 92. 171. 151.3 58.8 10. 10. 10. 95.9 10. 10. 180. 180. 10. 180. 125.8 10. 10. 10. 10. 10., automute 20., axis 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657., bril 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30., bypass 0, cluster_distr 0.5 0.5, cluster_end 105.64 105.64, cluster_start 42.47 42.47, decoding null, delays 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0., doppler 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0, downsampling2x 0, drop 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6., dropmode log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2, early_distr 0.5 0.5, early_end 39.71 39.71, early_shape 0.5 0.5, early_start 22.22 22.22, early_width 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30., env 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24., heaviness 25. 25., hoaencoding SN3D, hoamode precise, infinite 0 0, interpolationtime 30., liveness 35. 35., modaldensity 0.86 0.86, mute 0, nfchighpass 0, nfcspeakersradius 1., numcascades 1, numinternals 16, numpan 16, numreverbs 2, numsources 24, numspeakers 16, omni 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657., outputfiltersQ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1., outputfiltersfreq 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000., outputfiltersgain 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0., outputfilterstype Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null, pan_rev 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0., panning hoa3d, parallel 0, pitch 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0., prer 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48., pres 100. 100. 100. 100.002602 100. 100. 100. 100. 117.757004 120. 118.219101 120. 120. 120. 120. 120. 100. 120. 100.158897 100. 100. 100.44 100. 100., radius 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1., reverb_start 95.37 95.37, reverberance 65. 65., reverbfreqhigh 8000. 8000., reverbfreqlow 250. 250., reverbid 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0, revp 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34., roomactive 1 1, roomairabsorption 1 1, roomairrolloff 10000. 10000., sourceairabsorption 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1, sourcemute 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0, sourcespositions -7.111995 -4.426827 5.46102 -6.691037 0.420964 7.419759 -4.772686 8.038119 3.551069 -6.9 5.068707 5.164816 -3.372122 4.442607 8.3 3.173022 1.520257 9.360596 6.39 5.896564 4.939419 0.619592 -7.227233 6.883546 -0.017617 5.046969 0. 2.968703 3.010446 0. 2.202755 3.418007 2.836699 -2.677612 2.734287 0. -3.04 -0.026529 0. 3.014927 0.021049 0. -2.768442 -2.846852 0. 2.794587 -2.824007 0. -8.660254 -5. 0. 0.194945 2.592681 0. 9.824641 -1.503381 0. -9.659258 2.588191 0. -8.660254 5. 0. -6.83 7.072549 0. -5. 8.660254 0. -2.588191 9.659258 0., speakerseq 0, speakerspositions 0. 1. 0. 0.382683 0.92388 0. 0.707107 0.707107 0. 0.92388 0.382683 0. 1. 0. 0. 0.92388 -0.382683 0. 0.707107 -0.707107 0. 0.382683 -0.92388 0. 0. -1. 0. -0.382683 -0.92388 0. -0.707107 -0.707107 0. -0.92388 -0.382683 0. -1. -0. 0. -0.92388 0.382683 0. -0.707107 0.707107 0. -0.382683 0.92388 0., speakerstimealignment 0, stereo 0, warmth 30. 30. 30. 30. 30. 30. 30. 49. 30. 30. 30. 30. 30. 30. 30. 30. 30. 45. 30. 30. 30. 30. 30. 30., yaw 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.,"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-204",
 									"maxclass" : "newobj",
@@ -6771,7 +6820,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 661.53894, 228.70401, 25.0, 25.0 ],
+									"patching_rect" : [ 661.53894, 412.0, 25.0, 25.0 ],
 									"style" : ""
 								}
 
@@ -6812,7 +6861,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 518.505859, 429.333008, 252.0, 100.0 ],
+									"patching_rect" : [ 798.505859, 514.333008, 252.0, 100.0 ],
 									"style" : "",
 									"text" : "initialization order:\n1) speaker calibration\n2) send speaker coordinates to spat.decoder\n3) check info for decoder\n4) bang spat.oper\n5) set global sources parameters\n6) set source colors"
 								}
@@ -6827,7 +6876,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 420.338928, 201.337997, 93.0, 21.0 ],
+									"patching_rect" : [ 661.53894, 214.5, 93.0, 21.0 ],
 									"style" : "",
 									"text" : "prepend sources"
 								}
@@ -6843,7 +6892,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 420.338928, 143.337997, 152.0, 45.0 ],
+									"patching_rect" : [ 661.53894, 147.337997, 152.0, 45.0 ],
 									"style" : "",
 									"text" : "radius 1, dropmode log2, drop 6., dist 10., pres 100, aperture 10."
 								}
@@ -6884,7 +6933,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 420.338928, 234.70401, 25.0, 25.0 ],
+									"patching_rect" : [ 420.338928, 2309.333008, 25.0, 25.0 ],
 									"style" : ""
 								}
 
@@ -6928,10 +6977,9 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
+									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 429.838928, 232.345001, 429.838928, 232.345001 ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -6995,7 +7043,7 @@
 									"destination" : [ "obj-25", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-30", 1 ]
+									"source" : [ "obj-30", 2 ]
 								}
 
 							}
@@ -7010,10 +7058,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-30", 2 ]
+									"source" : [ "obj-30", 1 ]
 								}
 
 							}
@@ -7028,6 +7076,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -7035,12 +7092,21 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
  ],
 						"styles" : [ 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8313,15 +8379,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-250", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-226", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -8336,6 +8393,42 @@
 					"hidden" : 0,
 					"midpoints" : [ 1477.514648, 989.269958, 1069.211914, 989.269958 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-231", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-230", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-250", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-231", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-231", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-233", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-230", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-236", 0 ]
 				}
 
 			}
@@ -8378,7 +8471,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-202", 1 ],
+					"destination" : [ "obj-150", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-250", 16 ]
@@ -10293,12 +10386,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-62::obj-55" : [ "live.text[3]", "live.text", 0 ],
-			"obj-62::obj-35" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-62::obj-606" : [ "live.text[2]", "live.text", 0 ],
 			"obj-62::obj-607" : [ "live.button[1]", "live.button", 0 ],
+			"obj-62::obj-55" : [ "live.text[3]", "live.text", 0 ],
 			"obj-62::obj-50" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-62::obj-21" : [ "live.numbox[4]", "live.numbox", 0 ]
+			"obj-62::obj-21" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-62::obj-35" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-62::obj-606" : [ "live.text[2]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -10424,8 +10517,8 @@
 		"styles" : [ 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
